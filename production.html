@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#303048">
+		<meta name="theme-color" content="#303048">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1247.css" media="print, (max-width: 1247px)" async>
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<button class="mob_close_btn"></button>
+
+					<div class="mob_scroll">
+						<div class="info">
+							<div class="cont row">
+								<a href="/" class="logo">
+									<img src="images/logo.svg" alt="">
+								</a>
+
+								<div class="location">
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+									</div>
+
+									<div><b>Адрес:</b> г. Москва,<br> ул. Проспект Мира, д. 102с30</div>
+								</div>
+
+								<div class="contacts">
+									<div class="time">
+										<div>Пн – Пт с 10:00 до 19:00</div>
+										<div>Сб, Вс с 11:00 до 20:00</div>
+									</div>
+
+									<div class="phone">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+
+										<div>
+											<div><a href="tel:+76575675656">+7 (657) 567-56-56</a></div>
+										</div>
+									</div>
+								</div>
+
+								<div class="whatsapp_link">
+									<a href="/">
+										<div class="icon">
+											<svg><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+										</div>
+
+										<span>Написать в Whatsapp</span>
+									</a>
+								</div>
+
+								<button class="callback_btn modal_btn" data-modal="#callback_modal">Заказать звонок</button>
+							</div>
+						</div>
+
+
+						<div class="bottom">
+							<div class="cont">
+								<nav class="menu row">
+									<div class="menu_item">
+										<a href="/">Главная</a>
+									</div>
+
+									<div class="menu_item">
+										<a href="/">О нас</a>
+									</div>
+
+									<div class="menu_item">
+										<a href="/" class="sub_link">
+											<span>Каталог</span>
+											<span class="arr"></span>
+										</a>
+
+										<div class="sub_menu">
+											<div><a href="/">Офисные столы</a></div>
+											<div><a href="/">Кресла для офиса</a></div>
+											<div><a href="/">Шкафы и тумбы</a></div>
+											<div><a href="/">Переговорные</a></div>
+											<div><a href="/">Ресепшн</a></div>
+											<div><a href="/">Гардеробные</a></div>
+											<div><a href="/">Кухни</a></div>
+										</div>
+									</div>
+
+									<div class="menu_item">
+										<a href="/">Наше производство</a>
+									</div>
+
+									<div class="menu_item">
+										<a href="/">Оплата и доставка</a>
+									</div>
+
+									<div class="menu_item">
+										<a href="/">Контакты</a>
+									</div>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_header">
+					<div class="cont row">
+						<a href="/" class="logo">
+							<img src="images/logo.svg" alt="">
+						</a>
+
+						<div class="phone">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+
+							<div>
+								<div><a href="tel:+76575675656">+7 (657) 567-56-56</a></div>
+							</div>
+						</div>
+
+						<div class="whatsapp_link">
+							<a href="/">
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+								</div>
+							</a>
+						</div>
+
+						<button class="callback_btn modal_btn" data-modal="#callback_modal">Заказать звонок</button>
+
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+					</div>
+				</section>
+
+
+				<section class="production_head">
+					<div class="cont">
+						<div class="block_head center">
+							<div class="title">Добро пожаловать в SOKO Mebel</div>
+
+							<div class="desc">Мы глубоко убеждены, что сегодня качеству уделяется слишком мало внимания. Общество ещё до конца не осознало, что низкие цены и соответствующее качество ведут к варварскому истреблению природных ресурсов и одновременно создают очень большие экологические проблемы, причём они растут в геометрической прогрессии.</div>
+						</div>
+					</div>
+
+					<div class="scroll_down">
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_send"></use></svg>
+					</div>
+
+					<img data-src="images/tmp/bg_production_head.jpg" alt="" class="bg lazyload">
+				</section>
+
+
+				<section class="about_info">
+					<div class="cont">
+						<div class="row">
+							<div class="text_block">
+								<h2>Качество - превыше всего</h2>
+
+								<p>Плохо сделанная вещь быстро оказывается на свалке. Это приводит одновременно к истощению сырьевых ресурсов и проблеме утилизации мусора. Качественно сделанные вещи служат дольше, снижая нагрузку на окружающую среду. Мы хотим сохранить нашу природу для будущих поколений.</p>
+
+								<p>Качество - наш главный критерий, которому подчинено всё остальное. Можно сказать, что на нашем производстве действует принцип ПРЕЗУМПЦИИ КАЧЕСТВА. Мы перечислили основных три кита, на которых держится наша компания, но последовательность не важна, все они для нас главные.</p>
+							</div>
+
+							<div class="image">
+								<img data-src="images/tmp/about_info_img1.jpg" alt="" class="lazyload">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="image">
+								<img data-src="images/tmp/about_info_img2.jpg" alt="" class="lazyload">
+							</div>
+
+							<div class="text_block">
+								<h2>Только собственные разработки</h2>
+
+								<p>Наша компания придерживается принципа НЕ КОПИРОВАНИЯ. Мы производим только мебель нашей собственной оригинальной разработки, которая защищена более чем 20 патентами на различные узлы. Наша мебель выглядит современно, она легко узнаваема, отличается очень высоким качеством изготовления и надёжностью в эксплуатации.</p>
+
+								<p>Мы всегда стараемся довести её до совершенс тва, поэтому процесс разработки нового изделия может занять до 8-10 последовательных шагов, на каждом из которых изготавливаются и испытываются новые образцы. Благодаря постоянным инвестициям в разработку собственных изделий мы получаем опыт и гибкость в поиске нестандартных решений.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="videos">
+					<div class="cont">
+						<div class="block_head center">
+							<div class="title">Видео</div>
+						</div>
+
+						<div class="swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<a href="https://www.youtube.com/watch?v=R9Wvg6THqUk" data-fancybox class="item fancy_img">
+										<div class="thumb">
+											<div class="icon"></div>
+											<img data-src="images/tmp/video_thumb.jpg" alt="" class="swiper-lazy">
+										</div>
+									</a>
+								</div>
+
+								<div class="swiper-slide">
+									<a href="https://www.youtube.com/watch?v=R9Wvg6THqUk" data-fancybox class="item fancy_img">
+										<div class="thumb">
+											<div class="icon"></div>
+											<img data-src="images/tmp/video_thumb2.jpg" alt="" class="swiper-lazy">
+										</div>
+									</a>
+								</div>
+
+								<div class="swiper-slide">
+									<a href="https://www.youtube.com/watch?v=R9Wvg6THqUk" data-fancybox class="item fancy_img">
+										<div class="thumb">
+											<div class="icon"></div>
+											<img data-src="images/tmp/video_thumb3.jpg" alt="" class="swiper-lazy">
+										</div>
+									</a>
+								</div>
+
+								<div class="swiper-slide">
+									<a href="https://www.youtube.com/watch?v=R9Wvg6THqUk" data-fancybox class="item fancy_img">
+										<div class="thumb">
+											<div class="icon"></div>
+											<img data-src="images/tmp/video_thumb.jpg" alt="" class="swiper-lazy">
+										</div>
+									</a>
+								</div>
+
+								<div class="swiper-slide">
+									<a href="https://www.youtube.com/watch?v=R9Wvg6THqUk" data-fancybox class="item fancy_img">
+										<div class="thumb">
+											<div class="icon"></div>
+											<img data-src="images/tmp/video_thumb2.jpg" alt="" class="swiper-lazy">
+										</div>
+									</a>
+								</div>
+
+								<div class="swiper-slide">
+									<a href="https://www.youtube.com/watch?v=R9Wvg6THqUk" data-fancybox class="item fancy_img">
+										<div class="thumb">
+											<div class="icon"></div>
+											<img data-src="images/tmp/video_thumb3.jpg" alt="" class="swiper-lazy">
+										</div>
+									</a>
+								</div>
+							</div>
+
+							<div class="swiper-button-prev">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr"></use></svg>
+							</div>
+
+							<div class="swiper-button-next">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr"></use></svg>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="photogallery tabs_container">
+					<div class="cont">
+						<div class="block_head center">
+							<div class="title">Фотогалерея</div>
+						</div>
+
+						<div class="tabs">
+							<button data-content="#photogallery_tab1" data-level="level1" class="active">Вязальный цех</button>
+							<button data-content="#photogallery_tab2" data-level="level1">Красильный цех</button>
+							<button data-content="#photogallery_tab3" data-level="level1">Лаборатории</button>
+							<button data-content="#photogallery_tab4" data-level="level1">Награды</button>
+							<button data-content="#photogallery_tab5" data-level="level1">Наши достижения</button>
+							<button data-content="#photogallery_tab6" data-level="level1">Отдел дизайна</button>
+						</div>
+
+
+						<div class="tab_content level1 active" id="photogallery_tab1">
+							<div class="row">
+								<a href="images/tmp/video_thumb.jpg" class="item fancy_img" data-fancybox="photogallery1">
+									<div class="thumb">
+										<img data-src="images/tmp/video_thumb.jpg" alt="" class="lazyload">
+									</div>
+								</a>
+
+								<a href="images/tmp/video_thumb.jpg" class="item fancy_img" data-fancybox="photogallery1">
+									<div class="thumb">
+										<img data-src="images/tmp/video_thumb.jpg" alt="" class="lazyload">
+									</div>
+								</a>
+
+								<a href="images/tmp/video_thumb.jpg" class="item fancy_img" data-fancybox="photogallery1">
+									<div class="thumb">
+										<img data-src="images/tmp/video_thumb.jpg" alt="" class="lazyload">
+									</div>
+								</a>
+
+								<a href="images/tmp/video_thumb.jpg" class="item fancy_img" data-fancybox="photogallery1">
+									<div class="thumb">
+										<img data-src="images/tmp/video_thumb.jpg" alt="" class="lazyload">
+									</div>
+								</a>
+
+								<a href="images/tmp/video_thumb.jpg" class="item fancy_img" data-fancybox="photogallery1">
+									<div class="thumb">
+										<img data-src="images/tmp/video_thumb.jpg" alt="" class="lazyload">
+									</div>
+								</a>
+
+								<a href="images/tmp/video_thumb.jpg" class="item fancy_img" data-fancybox="photogallery1">
+									<div class="thumb">
+										<img data-src="images/tmp/video_thumb.jpg" alt="" class="lazyload">
+									</div>
+								</a>
+
+								<a href="images/tmp/video_thumb.jpg" class="item fancy_img" data-fancybox="photogallery1">
+									<div class="thumb">
+										<img data-src="images/tmp/video_thumb.jpg" alt="" class="lazyload">
+									</div>
+								</a>
+
+								<a href="images/tmp/video_thumb.jpg" class="item fancy_img" data-fancybox="photogallery1">
+									<div class="thumb">
+										<img data-src="images/tmp/video_thumb.jpg" alt="" class="lazyload">
+									</div>
+								</a>
+							</div>
+						</div>
+
+
+						<div class="tab_content level1" id="photogallery_tab2">
+
+						</div>
+
+
+						<div class="tab_content level1" id="photogallery_tab3">
+
+						</div>
+
+
+						<div class="tab_content level1" id="photogallery_tab4">
+
+						</div>
+
+
+						<div class="tab_content level1" id="photogallery_tab5">
+
+						</div>
+
+
+						<div class="tab_content level1" id="photogallery_tab6">
+
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="col_left">
+						<div class="logo">
+							<img src="images/logo_white.svg" alt="">
+						</div>
+
+						<div class="location">
+							<div class="icon">
+								<svg><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+							</div>
+
+							<div><b>Адрес:</b> г. Москва,<br> ул. Проспект Мира, д. 102с30</div>
+						</div>
+					</div>
+
+
+					<div class="menu">
+						<div><a href="/">Главная</a></div>
+						<div><a href="/">О нас</a></div>
+						<div><a href="/">Каталог</a></div>
+						<div><a href="/">Наше производство</a></div>
+						<div><a href="/">Оплата и доставка</a></div>
+						<div><a href="/">Контакты</a></div>
+					</div>
+
+
+					<div class="contacts">
+						<div class="row">
+							<div>
+								<div class="time">
+									<div>Пн – Пт с 10:00 до 19:00</div>
+									<div>Сб, Вс с 11:00 до 20:00</div>
+								</div>
+
+								<div class="phone">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+
+									<div>
+										<div><a href="tel:+76575675656">+7 (657) 567-56-56</a></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="whatsapp_link">
+								<a href="/">
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+									</div>
+
+									<span>Написать в Whatsapp</span>
+								</a>
+							</div>
+
+							<button class="callback_btn modal_btn" data-modal="#callback_modal">Заказать звонок</button>
+						</div>
+
+						<div class="socials">
+							<a href="/" target="_blank" rel="noopener nofollow" class="fb_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_fb"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="twitter_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_twitter"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="youtube_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_youtube"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="instagram_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="whatsapp_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="vk_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_vk"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="odnokl_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_odnokl"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="telegram_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="viber_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_viber"></use></svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="callback_modal">
+			<div class="block_head center">
+				<div class="title">Обратний звонок</div>
+			</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="label">Ваше имя *</div>
+
+					<div class="field">
+						<div class="icon">
+							<svg><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+						</div>
+
+						<input type="text" name="" value="" class="input" placeholder="Мария Иванова">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Ваш номер телефона *</div>
+
+					<div class="field error">
+						<div class="icon">
+							<svg><use xlink:href="images/sprite.svg#ic_phone2"></use></svg>
+						</div>
+
+						<input type="tel" name="" value="" class="input" placeholder="Ошибка заполнения">
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">
+						<span>Заказать звонок</span>
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_send"></use></svg>
+					</button>
+				</div>
+
+				<div class="agree">
+					<input type="checkbox" name="agree" id="callback_agree_check" checked>
+					<label for="callback_agree_check">
+						<div class="check">
+							<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+						</div>
+						<div>Согласен с условиями <a href="/" target="_blank">обработки данных</a></div>
+					</label>
+				</div>
+			</form>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

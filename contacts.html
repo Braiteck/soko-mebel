@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#303048">
+		<meta name="theme-color" content="#303048">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1247.css" media="print, (max-width: 1247px)" async>
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<button class="mob_close_btn"></button>
+
+					<div class="mob_scroll">
+						<div class="info">
+							<div class="cont row">
+								<a href="/" class="logo">
+									<img src="images/logo.svg" alt="">
+								</a>
+
+								<div class="location">
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+									</div>
+
+									<div><b>Адрес:</b> г. Москва,<br> ул. Проспект Мира, д. 102с30</div>
+								</div>
+
+								<div class="contacts">
+									<div class="time">
+										<div>Пн – Пт с 10:00 до 19:00</div>
+										<div>Сб, Вс с 11:00 до 20:00</div>
+									</div>
+
+									<div class="phone">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+
+										<div>
+											<div><a href="tel:+76575675656">+7 (657) 567-56-56</a></div>
+										</div>
+									</div>
+								</div>
+
+								<div class="whatsapp_link">
+									<a href="/">
+										<div class="icon">
+											<svg><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+										</div>
+
+										<span>Написать в Whatsapp</span>
+									</a>
+								</div>
+
+								<button class="callback_btn modal_btn" data-modal="#callback_modal">Заказать звонок</button>
+							</div>
+						</div>
+
+
+						<div class="bottom">
+							<div class="cont">
+								<nav class="menu row">
+									<div class="menu_item">
+										<a href="/">Главная</a>
+									</div>
+
+									<div class="menu_item">
+										<a href="/">О нас</a>
+									</div>
+
+									<div class="menu_item">
+										<a href="/" class="sub_link">
+											<span>Каталог</span>
+											<span class="arr"></span>
+										</a>
+
+										<div class="sub_menu">
+											<div><a href="/">Офисные столы</a></div>
+											<div><a href="/">Кресла для офиса</a></div>
+											<div><a href="/">Шкафы и тумбы</a></div>
+											<div><a href="/">Переговорные</a></div>
+											<div><a href="/">Ресепшн</a></div>
+											<div><a href="/">Гардеробные</a></div>
+											<div><a href="/">Кухни</a></div>
+										</div>
+									</div>
+
+									<div class="menu_item">
+										<a href="/">Наше производство</a>
+									</div>
+
+									<div class="menu_item">
+										<a href="/">Оплата и доставка</a>
+									</div>
+
+									<div class="menu_item">
+										<a href="/">Контакты</a>
+									</div>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_header">
+					<div class="cont row">
+						<a href="/" class="logo">
+							<img src="images/logo.svg" alt="">
+						</a>
+
+						<div class="phone">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+
+							<div>
+								<div><a href="tel:+76575675656">+7 (657) 567-56-56</a></div>
+							</div>
+						</div>
+
+						<div class="whatsapp_link">
+							<a href="/">
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+								</div>
+							</a>
+						</div>
+
+						<button class="callback_btn modal_btn" data-modal="#callback_modal">Заказать звонок</button>
+
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+					</div>
+				</section>
+
+
+				<section class="page_head">
+					<div class="breadcrumbs">
+						<div class="cont">
+							<a href="/">Главная</a> <span class="sep">/</span>
+							<span class="current">Контакты</span>
+						</div>
+					</div>
+
+					<div class="cont">
+						<h1 class="page_title">Контакты</h1>
+					</div>
+				</section>
+
+
+				<section class="contacts_info">
+					<div class="cont">
+						<div class="data">
+							<div class="item location">
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+								</div>
+
+								<div><b>Адрес:</b> г. Москва,<br> ул. Проспект Мира, д. 102с30</div>
+							</div>
+
+							<div class="item time">
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_time"></use></svg>
+								</div>
+
+								<div><b>Режим работы:</b><br> Пн – Пт с 10:00 до 19:00<br> Сб, Вс с 11:00 до 20:00</div>
+							</div>
+
+							<div class="item phone">
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+								</div>
+
+								<div><b>Телефон:</b><br> <a href="tel:+76575675656">+7 (657) 567-56-56</a></div>
+							</div>
+
+							<div class="socials">
+								<div class="name">Ми в соцсетях:</div>
+
+								<div class="items">
+									<a href="/" target="_blank" rel="noopener nofollow" class="vk_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_vk"></use></svg>
+									</a>
+
+									<a href="/" target="_blank" rel="noopener nofollow" class="odnokl_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_odnokl"></use></svg>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div id="map"></div>
+				</section>
+
+
+				<section class="feedback">
+					<div class="cont row">
+						<form action="" class="form">
+							<div class="block_head">
+								<div class="title">Обратный звонок</div>
+							</div>
+
+							<div class="line">
+								<div class="label">Ваше имя *</div>
+
+								<div class="field">
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+									</div>
+
+									<input type="text" name="" value="" class="input" placeholder="Мария Иванова">
+								</div>
+							</div>
+
+							<div class="line">
+								<div class="label">Ваш номер телефона *</div>
+
+								<div class="field">
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_phone2"></use></svg>
+									</div>
+
+									<input type="tel" name="" value="" class="input" placeholder="+7 (___) ___ - __ - __">
+								</div>
+							</div>
+
+							<div class="line">
+								<div class="label">Ваш e-mail *</div>
+
+								<div class="field">
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+									</div>
+
+									<input type="email" name="" value="" class="input" placeholder="mail@mail.ru">
+								</div>
+							</div>
+
+							<div class="bottom">
+								<div class="submit">
+									<button type="submit" class="submit_btn">
+										<span>Отправить заявку</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_send"></use></svg>
+									</button>
+								</div>
+
+								<div class="agree">
+									<input type="checkbox" name="agree" id="agree_check" checked>
+									<label for="agree_check">
+										<div class="check">
+											<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+										</div>
+										<div>Согласен с условиями<br> <a href="/" target="_blank">обработки данных</a></div>
+									</label>
+								</div>
+							</div>
+						</form>
+
+						<div class="image">
+							<img data-src="images/tmp/feedback_img.jpg" alt="" class="lazyload">
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="col_left">
+						<div class="logo">
+							<img src="images/logo_white.svg" alt="">
+						</div>
+
+						<div class="location">
+							<div class="icon">
+								<svg><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+							</div>
+
+							<div><b>Адрес:</b> г. Москва,<br> ул. Проспект Мира, д. 102с30</div>
+						</div>
+					</div>
+
+
+					<div class="menu">
+						<div><a href="/">Главная</a></div>
+						<div><a href="/">О нас</a></div>
+						<div><a href="/">Каталог</a></div>
+						<div><a href="/">Наше производство</a></div>
+						<div><a href="/">Оплата и доставка</a></div>
+						<div><a href="/">Контакты</a></div>
+					</div>
+
+
+					<div class="contacts">
+						<div class="row">
+							<div>
+								<div class="time">
+									<div>Пн – Пт с 10:00 до 19:00</div>
+									<div>Сб, Вс с 11:00 до 20:00</div>
+								</div>
+
+								<div class="phone">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+
+									<div>
+										<div><a href="tel:+76575675656">+7 (657) 567-56-56</a></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="whatsapp_link">
+								<a href="/">
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+									</div>
+
+									<span>Написать в Whatsapp</span>
+								</a>
+							</div>
+
+							<button class="callback_btn modal_btn" data-modal="#callback_modal">Заказать звонок</button>
+						</div>
+
+						<div class="socials">
+							<a href="/" target="_blank" rel="noopener nofollow" class="fb_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_fb"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="twitter_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_twitter"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="youtube_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_youtube"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="instagram_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="whatsapp_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="vk_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_vk"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="odnokl_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_odnokl"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="telegram_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="viber_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_viber"></use></svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="callback_modal">
+			<div class="block_head center">
+				<div class="title">Обратний звонок</div>
+			</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="label">Ваше имя *</div>
+
+					<div class="field">
+						<div class="icon">
+							<svg><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+						</div>
+
+						<input type="text" name="" value="" class="input" placeholder="Мария Иванова">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Ваш номер телефона *</div>
+
+					<div class="field error">
+						<div class="icon">
+							<svg><use xlink:href="images/sprite.svg#ic_phone2"></use></svg>
+						</div>
+
+						<input type="tel" name="" value="" class="input" placeholder="Ошибка заполнения">
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">
+						<span>Заказать звонок</span>
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_send"></use></svg>
+					</button>
+				</div>
+
+				<div class="agree">
+					<input type="checkbox" name="agree" id="callback_agree_check" checked>
+					<label for="callback_agree_check">
+						<div class="check">
+							<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+						</div>
+						<div>Согласен с условиями <a href="/" target="_blank">обработки данных</a></div>
+					</label>
+				</div>
+			</form>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

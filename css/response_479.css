@@ -1,0 +1,327 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 16px;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header .logo img
+    {
+        height: 48px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form input[type=checkbox] + label br
+    {
+        display: none;
+    }
+
+
+    .form .bottom .agree
+    {
+        width: 100%;
+        margin-top: 12px;
+    }
+
+
+    .form .bottom .submit,
+    .form .submit_btn
+    {
+        width: 100%;
+    }
+
+    .form .submit_btn .icon
+    {
+        margin-left: auto;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .cont
+    {
+        min-height: 420px;
+    }
+
+
+    .main_slider .title
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog .row
+    {
+        margin-bottom: -20px;
+        margin-left: 0;
+    }
+
+    .catalog .row > *
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+    .catalog .category
+    {
+        padding: 24px;
+    }
+
+    .catalog .category:before
+    {
+        width: 320px;
+        height: 320px;
+    }
+
+    .catalog .category .thumb
+    {
+        padding: 4px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*---------------
+        Portfolio
+    ---------------*/
+    .portfolio .row
+    {
+        margin-bottom: -32px;
+        margin-left: 0;
+    }
+
+    .portfolio .row > *
+    {
+        width: 100%;
+        margin-bottom: 32px;
+        margin-left: 0;
+    }
+
+
+    .portfolio .item .name
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .portfolio .item .desc
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        margin-left: 0;
+    }
+
+    .contacts_info .data > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .contacts_info .item .icon + div
+    {
+        width: calc(100% - 64px);
+        padding-top: 4px;
+    }
+
+
+    .contacts_info .socials .items
+    {
+        width: auto;
+        padding: 0;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback .image
+    {
+        width: 85%;
+        margin-top: 44px;
+    }
+
+
+
+    /*-------------------
+        Products head
+    -------------------*/
+    .products_head .sort,
+    .products_head .limit
+    {
+        width: 100%;
+    }
+
+    .products_head .sort + .limit
+    {
+        margin-top: 8px;
+        margin-left: 0;
+    }
+
+    .products_head .limit .nice-select .list
+    {
+        right: auto;
+        left: 0;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .row
+    {
+        --products_count: 1;
+    }
+
+
+    .products .row
+    {
+        margin-bottom: -24px;
+        margin-left: 0;
+    }
+
+    .products .row > *,
+    .content .products .row > *
+    {
+        width: 100%;
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
+
+
+    .products .product
+    {
+        padding: 19px;
+    }
+
+    .products .product .thumb
+    {
+        margin-bottom: 20px;
+        padding-bottom: 64%;
+    }
+
+    .products .product .link
+    {
+        padding-left: 23px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .col_left
+    {
+        justify-content: center;
+    }
+
+
+    footer .logo
+    {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    footer .logo img
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    footer .time
+    {
+        line-height: 17px;
+
+        width: 100%;
+        margin-bottom: 12px;
+
+        text-align: center;
+    }
+
+
+    footer .phone
+    {
+        margin-left: 0;
+    }
+
+
+    footer .contacts .row > .whatsapp_link
+    {
+        display: none;
+    }
+
+
+    footer .callback_btn
+    {
+        margin-left: 0;
+        padding: 12px 28px;
+    }
+
+
+    footer .socials a + a
+    {
+        margin-left: 7px;
+    }
+
+    footer .socials a
+    {
+        width: 30px;
+        height: 30px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 40px 32px;
+    }
+}
